@@ -52,7 +52,6 @@ public class LongestCommonPrefix {
      * 字母到长度为最小长度的字符串进行比较，只要当前缀不一样时，就返回arrays[0].substring(0,j);j是已比较的长度，否则返回arrays[0].substring(0,miinLength);
      * 其他情况返回""
      *
-     *
      * @param arrays
      * @return
      */
