@@ -54,6 +54,14 @@ public class SameTree {
 
     }
 
+    /**
+     * 题意是比较两棵二叉树是否相同
+     * 思路：先比较根节点，再深搜比较各个节点
+     *
+     * @param p
+     * @param q
+     * @return
+     */
     public static boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;
