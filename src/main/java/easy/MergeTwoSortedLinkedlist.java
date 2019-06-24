@@ -1,5 +1,7 @@
 package easy;
 
+import bean.ListNode;
+
 /**
  * Merge Two Sorted Lists
  * Description
@@ -63,15 +65,4 @@ public class MergeTwoSortedLinkedlist {
         return head.next;
     }
 
-    /**
-     * 自己模拟的一个链表的结构
-     */
-    public static class ListNode {
-        int val;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
 }
